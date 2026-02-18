@@ -68,7 +68,7 @@ class _GalileoMapPageState extends State<GalileoMapPage> {
     for (int i = 0; i < targetCycles; i++) {
       if (!mounted) break;
       
-      await Future.delayed(const Duration(milliseconds: 200));
+      await Future.delayed(const Duration(milliseconds: 2000));
       
       if (!mounted) break;
       setState(() {
